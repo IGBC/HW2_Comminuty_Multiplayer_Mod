@@ -1,0 +1,20 @@
+-- =============================================================================
+-- Homeworld 2 Clean Data Resource Project
+-- By S110
+-- Version 1.0
+-- 02/06/2010
+-- Tools used: EditPad Lite, LuaDC version 0.9.19, and Cold Fusion LUA Decompiler v1.0.0
+-- =============================================================================
+
+effects = {
+animations = {
+	animation1 = {name = "Death", length = 1, loop = 0, parent = "", minimum = 0, maximum = 0, markers = {""},},
+	animation2 = {name = "Fire_Missle", length = 3, loop = 0, parent = "", minimum = 0, maximum = 0, markers = {""},},
+	},
+events = {
+	event1 = {{"anim", "Death"}, {"animtime", "0"}, {"marker", "root"}, {"fx", "death_generic_fighter"},},
+	event2 = {{"anim", "Fire_Missle"}, {"animtime", "0"}, {"marker", "Weapon_Missile_Muzzle"}, {"fx", "torpedo_steam_spray"}, {"sound", "WEAPON/CARRIER/FIRE/WEAPON_DESTROYER_MISSLE_LAUNCH"}, {"fx_scale", "1"}, {"fx_nlips", "on"},},
+	event3 = {{"anim", "Fire_Missle"}, {"animtime", "0.2"}, {"marker", "Weapon_MissileSlave_Muzzle"}, {"fx", "torpedo_steam_spray"}, {"sound", "WEAPON/CARRIER/FIRE/WEAPON_DESTROYER_MISSLE_LAUNCH"}, {"fx_scale", "1"}, {"fx_nlips", "on"},}, 	
+	event4 = {{"anim", "Fire_Missle"}, {"animtime", "0.4"}, {"marker", "Weapon_MissileSlave1_Muzzle"}, {"fx", "torpedo_steam_spray"}, {"sound", "WEAPON/CARRIER/FIRE/WEAPON_DESTROYER_MISSLE_LAUNCH"}, {"fx_scale", "1"}, {"fx_nlips", "on"},},
+	event5 = {{"anim", "Fire_Missle"}, {"animtime", "0.6"}, {"marker", "Weapon_MissileSlave2_Muzzle"}, {"fx", "torpedo_steam_spray"}, {"sound", "WEAPON/CARRIER/FIRE/WEAPON_DESTROYER_MISSLE_LAUNCH"}, {"fx_scale", "1"}, {"fx_nlips", "on"},},
+	},}
