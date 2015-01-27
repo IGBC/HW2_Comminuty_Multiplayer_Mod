@@ -42,5 +42,5 @@ NewSubSystemType["AttackFamily"] = "SubSystem"
 NewSubSystemType["DockFamily"] = "CantDock"
 NewSubSystemType["DisplayFamily"] = "SubSystemModule"
 NewSubSystemType["ArmourFamily"] = "SubSystemArmour"
-StartSubSystemWeaponConfig(NewSubSystemType, "Vgr_FlechetteCannonDestroyer", "Weapon_turret", "Weapon_FlechetteTop")
+StartSubSystemWeaponConfig(NewSubSystemType, "Vgr_FlechetteCannonSubs", "Weapon_turret", "Weapon_FlechetteTop")
 
